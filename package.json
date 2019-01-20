@@ -1,4 +1,5 @@
 {
+  "proxy": "http://localhost:3001",
   "name": "foto-op",
   "version": "0.1.0",
   "private": true,
@@ -9,6 +10,7 @@
     "dot-env": "0.0.1",
     "dotenv": "^6.2.0",
     "express": "^4.16.4",
+    "express-session": "^1.15.6",
     "massive": "^5.7.3",
     "node-sass": "^4.11.0",
     "react": "^16.7.0",
