@@ -1,14 +1,17 @@
 {
+  "proxy": "http://localhost:3001",
   "name": "foto-op",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "axios": "^0.18.0",
     "body-parser": "^1.18.3",
+    "concurrently": "^4.1.0",
     "cors": "^2.8.5",
     "dot-env": "0.0.1",
     "dotenv": "^6.2.0",
     "express": "^4.16.4",
+    "express-session": "^1.15.6",
     "massive": "^5.7.3",
     "node-sass": "^4.11.0",
     "react": "^16.7.0",
@@ -21,6 +24,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "both": "concurrently \"react-scripts start\" \"nodemon server/index.js --watch server\"",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
