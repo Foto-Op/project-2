@@ -5,7 +5,10 @@ class Landing extends Component {
   render() {
     return (
       <div className="Landing">
-        <h1>Landing</h1>
+        <div className='landing top'>Top</div>
+        <div className='landing'>Navbar</div>
+        <div className='landing'>Drone Gif</div>
+        <div className='landing'>Click Me/Scroll Animation</div>
       </div>
     );
   }
